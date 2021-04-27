@@ -2,14 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Fonts</title>
   <style>
-   
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+#welcome p span {
+  font-weight: bold;
+}
+
+#about p span {
+  font-style: italic;
+}
   </style>
 </head>
 <body>
-    
+    <div id="welcome">
+    <h2 class="primary-heading">Welcome</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, totam <span>non optio nulla labore</span> aut esse itaque alias facilis voluptates.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Perspiciatis porro quaerat sit voluptatibus libero error </span>aut dicta iure rerum quidem? Nihil dolorum molestias assumenda eius obcaecati amet accusamus illum nesciunt?</p>
+  </div>
+  <div id="about">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Aliquam cum explicabo similique</span> minus nisi vero quos accusantium praesentium placeat consequuntur.</p>
+  </div>
 </body>
 </html>
